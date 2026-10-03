@@ -1,0 +1,30 @@
+﻿# Secrets and environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs
+*.log
+build_log.txt
+install_log.txt
+
+# Local backups and persistent runtime data
+backups/
+docker_persistent/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Git internals
+**/.git/
